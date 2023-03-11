@@ -1,9 +1,11 @@
+import type { NextPage } from 'next'
 import Login from "./login";
+import Registration from './Registration';
 
 const Home: NextPage = () => {
   return (
     <div>
-      <Login/>
+      <Registration/>
     </div>
   )
 }
